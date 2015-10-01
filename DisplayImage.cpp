@@ -7,6 +7,7 @@ using namespace std;
 
 int main( int argc, char** argv )
 {
+    cout << "Hi! This is Laura!!\n";
     if( argc != 2)
     {
      cout <<" Usage: display_image ImageToLoadAndDisplay" << endl;
