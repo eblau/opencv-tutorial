@@ -9,3 +9,5 @@ add_executable( mat_the_basic_image_container mat_the_basic_image_container.cpp 
 target_link_libraries( mat_the_basic_image_container ${OpenCV_LIBS} )
 add_executable( how_to_scan_images how_to_scan_images.cpp )
 target_link_libraries( how_to_scan_images ${OpenCV_LIBS} )
+add_executable( mat_mask_operations mat_mask_operations.cpp )
+target_link_libraries( mat_mask_operations ${OpenCV_LIBS} )
