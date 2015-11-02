@@ -49,6 +49,7 @@ int main( void )
 
     /// Initialize a matrix filled with zeros
     Mat image = Mat::zeros( window_height, window_width, CV_8UC3 );
+
     /// Show it in a window during DELAY ms
     imshow( window_name, image );
     waitKey( DELAY );
