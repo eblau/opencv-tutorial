@@ -17,11 +17,6 @@ addons:
     - libopencv-legacy-dev
     - libopencv-ml-dev
     - libopencv-objdetect-dev
-    - libopencv-photo-dev
-    - libopencv-stitching-dev
-    - libopencv-superres-dev
-    - libopencv-ts-dev
     - libopencv-video-dev
-    - libopencv-videostab-dev
 
 script: cmake . && make
