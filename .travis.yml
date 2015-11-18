@@ -6,39 +6,22 @@ addons:
   apt:
     packages:
     - build-essential
-    - libopencv-calib3d2.4
     - libopencv-contrib-dev
-    - libopencv-contrib2.4
     - libopencv-core-dev
-    - libopencv-core2.4
     - libopencv-dev
     - libopencv-features2d-dev
-    - libopencv-features2d2.4
     - libopencv-flann-dev
-    - libopencv-flann2.4
     - libopencv-gpu-dev
-    - libopencv-gpu2.4
     - libopencv-highgui-dev
-    - libopencv-highgui2.4
     - libopencv-imgproc-dev
-    - libopencv-imgproc2.4
     - libopencv-legacy-dev
-    - libopencv-legacy2.4
     - libopencv-ml-dev
-    - libopencv-ml2.4
     - libopencv-objdetect-dev
-    - libopencv-objdetect2.4
     - libopencv-photo-dev
-    - libopencv-photo2.4
     - libopencv-stitching-dev
-    - libopencv-stitching2.4
     - libopencv-superres-dev
-    - libopencv-superres2.4
     - libopencv-ts-dev
-    - libopencv-ts2.4
     - libopencv-video-dev
-    - libopencv-video2.4
     - libopencv-videostab-dev
-    - libopencv-videostab2.4
 
 script: cmake . && make
