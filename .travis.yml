@@ -1,6 +1,8 @@
+sudo: false
+
 language: cpp
 
-before_install: 
+before_install:
  - sudo apt-get install build-essential
  - curl -sL https://github.com/Itseez/opencv/archive/2.4.11.zip > opencv.zip
  - unzip opencv.zip
